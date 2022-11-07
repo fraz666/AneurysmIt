@@ -1,5 +1,6 @@
 <script lang="ts">
   import audioSrc from "./assets/audio.mp3";
+  import imageSrc from "./assets/image.jpg";
 
   const audio = new Audio(audioSrc);
 
@@ -32,8 +33,8 @@
     border-radius: .25em;
     border: .15em solid;
     text-decoration: none;
-    -webkit-transition: 0.3s all ease;
-    transition: 0.3s ease all;
+    -webkit-transition: 1s all ease;
+    transition: 1s ease all;
     
   }
 
@@ -49,7 +50,7 @@
     flex-direction: row;
     justify-content: center;
 
-    background-image: url("image.jpg");
+    background-image: url("assets/image.jpg");
     background-position: center;
     background-size: contain;
     height: 100vh;
